@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "d183a6a4-8c35-463b-a472-266d6c986573",
+		"name": "pokeapi.postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42580635",
+		"_collection_link": "https://restless-moon-390539.postman.co/workspace/pokeapi-tests~f8c518e9-1867-43b6-b554-ae09b13bdd43/collection/42580635-d183a6a4-8c35-463b-a472-266d6c986573?action=share&source=collection_link&creator=42580635"
+	},
+	"item": [
+		{
+			"name": "List Pokémon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pokemon?limit=30",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pokemon"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pokémon by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pokemon/{{pokemonName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pokemon",
+						"{{pokemonName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/type",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"type"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokémon by type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/type/{{typeName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"type",
+						"{{typeName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pokémon Ability Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/ability/{{abilityName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"ability",
+						"{{abilityName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Move Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/move/{{moveName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"move",
+						"{{moveName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Evolution Chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/evolution-chain/{{evolutionId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"evolution-chain",
+						"{{evolutionId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/item/{{itemName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"item",
+						"{{itemName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Berry Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/berry/{{berryName}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"berry",
+						"{{berryName}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pokémon Encounter Locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pokemon/{{pokemonName}}/encounters",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pokemon",
+						"{{pokemonName}}",
+						"encounters"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://pokeapi.co/api/v2",
+			"type": "default"
+		}
+	]
+}

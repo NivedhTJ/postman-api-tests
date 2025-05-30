@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "11626a0b-540b-49c2-a0cb-c996dee0fa75",
+		"name": "numbers api.postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42580635",
+		"_collection_link": "https://restless-moon-390539.postman.co/workspace/numbersapi-tests~91eb31d0-8c22-4400-b0c7-f4246bd41ac6/collection/42580635-11626a0b-540b-49c2-a0cb-c996dee0fa75?action=share&source=collection_link&creator=42580635"
+	},
+	"item": [
+		{
+			"name": "Get Trivia for a Specific Number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/{{v}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{v}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Date Fact (MM/DD)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/{{month}}/{{date}}/date",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{month}}",
+						"{{date}}",
+						"date"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Year Fact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/{{year}}/year",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{year}}",
+						"year"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Random Number Fact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/random",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Random Math Fact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/random/math",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"random",
+						"math"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get JSON Format",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/{{num}}?json",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{num}}"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://numbersapi.com",
+			"type": "default"
+		}
+	]
+}

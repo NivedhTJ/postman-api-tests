@@ -1,5 +1,5 @@
 # Numbers API Postman Collection
-This repository contains a Postman collection for interacting with the Numbers API(http://numbersapi.com/#42), an API that provides trivia and facts about numbers, dates, years, and mathematical values.
+This repository contains a Postman collection for interacting with the [Numbers API](http://numbersapi.com/#42), an API that provides trivia and facts about numbers, dates, years, and mathematical values.
 
 ## Overview
 This collection includes various requests to explore interesting facts such as:

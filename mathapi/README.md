@@ -17,6 +17,12 @@ This collection includes various requests to explore interesting facts such as:
 ## Collection Details
 - **Collection Name**: numbers api.postman_collection
 
-- **Base URL Variable:** {{url}} with default value http://numbersapi.com
+- **Base URL Variable:** `{{url}}` with default value `http://numbersapi.com`
+
+## How to Use
+- Import the collection link into Postman:
+- Open in Postman
+- Set the url variable (default is `http://numbersapi.com`).
+- Use the defined requests and customize path/query parameters as needed.
 
 

@@ -15,3 +15,10 @@ This collection includes various requests to explore Pokémon information such a
 
 - **Collection Name:** pokeapi.postman_collection
 - **Base URL Variable:** `{{url}}` with default value `https://pokeapi.co/api/v2`
+
+## How to Use
+- Import the collection link into Postman:
+- Open in Postman
+- Set the url variable (default is `https://pokeapi.co/api/v2`).
+- Use the defined requests and customize path/query parameters as needed.
+

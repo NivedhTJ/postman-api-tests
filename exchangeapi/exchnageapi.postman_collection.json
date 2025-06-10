@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "9e9bddd6-4a39-4736-8819-13658786a1fa",
+		"name": "exchnageapi.postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42580635",
+		"_collection_link": "https://restless-moon-390539.postman.co/workspace/exchangeapi-test~4dece7e3-f7ed-4a8c-841a-3e0f16895f9d/collection/42580635-9e9bddd6-4a39-4736-8819-13658786a1fa?action=share&source=collection_link&creator=42580635"
+	},
+	"item": [
+		{
+			"name": "List all currencies(latest)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json",
+					"protocol": "https",
+					"host": [
+						"cdn",
+						"jsdelivr",
+						"net"
+					],
+					"path": [
+						"npm",
+						"@fawazahmed0",
+						"currency-api@latest",
+						"v1",
+						"currencies.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get exchange rates with a base currency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{{currency}}.json",
+					"protocol": "https",
+					"host": [
+						"cdn",
+						"jsdelivr",
+						"net"
+					],
+					"path": [
+						"npm",
+						"@fawazahmed0",
+						"currency-api@latest",
+						"v1",
+						"currencies",
+						"{{currency}}.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get exchange rates with a base currency at specific date",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@{{yyyy-mm-dd}}/v1/currencies/{{currency}}.json",
+					"protocol": "https",
+					"host": [
+						"cdn",
+						"jsdelivr",
+						"net"
+					],
+					"path": [
+						"npm",
+						"@fawazahmed0",
+						"currency-api@{{yyyy-mm-dd}}",
+						"v1",
+						"currencies",
+						"{{currency}}.json"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://api.exchangerate.host",
+			"type": "default"
+		}
+	]
+}

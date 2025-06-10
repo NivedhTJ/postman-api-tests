@@ -20,7 +20,7 @@ This collection includes requests to:
 - Set the url variable if you want to target a specific API version or date.
 
 - Use the predefined requests and fill in the path variables such as:
-  {{currency}} (e.g., usd, eur, btc)
-  {{yyyy-mm-dd}} (date in YYYY-MM-DD format for historical rates)
+  - {{currency}} (e.g., usd, eur, btc)
+  - {{yyyy-mm-dd}} (date in YYYY-MM-DD format for historical rates)
 
 - Send the requests to retrieve currency data in JSON format.

@@ -1,5 +1,5 @@
 # Exchange API Postman Collection
-This repository contains a Postman collection for interacting with the Exchange API, a free and fast currency exchange rates API with no rate limits and support for over 200 currencies including cryptocurrencies and precious metals.
+This repository contains a Postman collection for interacting with the Exchange API, a free and fast currency exchange rates API with no rate limits and support for over 200 currencies including cryptocurrencies.
 
 ## Overview
 This collection includes requests to:
